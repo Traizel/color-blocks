@@ -12,7 +12,7 @@
     background-color: yellow;
 }
 #redblock, #blueblock, #greenblock, #yellowblock {
-    margin: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
     width: 100px;
     height: 100px;
     display: inline-flex;
