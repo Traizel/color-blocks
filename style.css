@@ -1,22 +1,31 @@
-#redblock {
+.redButton {
     background-color: red;
-}
-#blueblock {
-    background-color: blue;
-}
-#greenblock {
-    background-color: green;
-}
-#yellowblock {
-
-    background-color: yellow;
-}
-#redblock, #blueblock, #greenblock, #yellowblock {
     margin: 5px 5px 5px 5px;
     width: 100px;
     height: 100px;
-    display: inline-flex;
+    display: inline-block;
 }
-#conatiner {
+.blueButton {
+    background-color: blue;
+    margin: 5px 5px 5px 5px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.greenButton {
+    background-color: green;
+    margin: 5px 5px 5px 5px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.yellowButton {
+    background-color: yellow;
+    margin: 5px 5px 5px 5px;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#container {
     text-align: center;
 }

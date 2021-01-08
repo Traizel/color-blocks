@@ -2,15 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="jQuery.js"></script>
+    <script src="client.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Color Blocks</title>
 </head>
 <body>
-    <div id="conatiner">
-        <div id="redblock"></div>
-        <div id="blueblock"></div>
-        <div id="greenblock"></div>
-        <div id="yellowblock"></div>
+    <div id="controller">
+        <ul>
+            <li><strong>Red Count: </strong><span id="red-count">1</span></li>
+            <li><strong>Blue Count: </strong><span id="blue-count">1</span></li>
+            <li><strong>Green Count: </strong><span id="green-count">1</span></li>
+            <li><strong>Yellow Count: </strong><span id="yellow-count">1</span></li>
+        </ul>
+        <button id="red">Add Red Block</button>
+        <button id="blue">Add Blue Block</button>
+        <button id="green">Add Green Block</button>
+        <button id="yellow">Add Yellow Block</button>
+    </div>
+    <div id="container">
+        <button class="redButton">Red</button>
+        <button class="blueButton">Blue</button>
+        <button class="greenButton">Green</button>
+        <button class="yellowButton">Yellow</button>
     </div>
 </body>
 </html>
